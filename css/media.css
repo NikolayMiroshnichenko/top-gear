@@ -1,0 +1,284 @@
+@media (max-width: 967px) {
+	.container {
+		width: 300px;
+	}
+	.main {
+		height: 640px;
+		background-position: center;
+		margin-bottom: 20px;
+	}
+	.logo {
+		width: 60px;
+		height: 80px;
+	}
+	.menu-icon {
+		position: fixed;
+		display: block;
+		width: 32px;
+		height: 32px;
+		top: 16px;
+		right: 16px;
+		background-image: url(../img/mobile/menu-icon.png);
+		background-size: contain;
+		background-position: center;
+		background-repeat: no-repeat;
+		z-index: 2;
+		cursor: pointer;
+		z-index: 3;
+	}
+	.menu-list {
+		position: fixed;
+		display: none;
+		top: 0;
+		right: 0;
+		width: 80%;
+		height: 100vh;
+		background-color: #333;
+		border-radius: 0;
+		z-index: 3;
+		padding: 80px 0 50px 30px;
+		box-sizing: border-box;
+	}
+	.menu-item {
+		padding: 15px 0 15px 30px;
+		display: block;
+		margin-right: 0;
+		margin-bottom: 0;
+	}
+	.main-title__text {
+		font-size: 16px;
+		padding-left: 0;
+		letter-spacing: 0;
+	}
+	.menu-item:before {
+		position: absolute;
+		top: 50%;
+		left: 8px;
+		transform: translateY(-50%);
+		content: "";
+		width: 8px;
+		height: 8px;
+		background-color: #ff1313;
+		border-radius: 50px;
+	}
+	.close-menu {
+		position: absolute;
+		display: block;
+		left: -40px;
+		top: 20px;
+		width: 80px;
+		height: 60px;
+		background-color: #ff1313;
+	}
+	.close-menu span {
+		position: absolute;
+		display: block;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%,-50%);
+		width: 30px;
+		height: 30px;
+		background-image: url(../img/close-menu.png);
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+	.main-content {
+		padding: 2% 6%;
+	}
+	.main-title {
+		font-size: 32px;
+	}
+	.main-btn {
+		width: 100px;
+		padding: 10px;
+		color: #ffffff;
+	}
+	.chip {
+		background-image: none;
+	}
+	.chip-title {
+		font-size: 20px;
+		height: 100px;
+	}
+	.chip-list {
+		flex-direction: column;
+		align-items: center;
+	}
+	.chip-list__item {
+		margin-bottom: 40px;
+	}
+	.chip-list__img {
+		width: 80px;
+	}
+	.diagnostics {
+		background-size: contain;
+		background-image: url(../img/mobile/diagnostics.jpg);
+		height: 400px;
+	}
+	.diagnostics-title {
+		width: 300px;
+		font-size: 20px;
+		line-height: 1.6;
+	}
+	.diagnostics-btn {
+		width: 100px;
+		padding: 6px;
+	}
+	.services-mobile {
+		background-image: url(../img/mobile/chip-fon.jpg);
+		height: 1600px;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	.services {
+		background-image: none;
+		height: 1400px;
+	}
+	.services-diagnostics,
+	.services-chip,
+	.air-Bag,
+	.filter,
+	.catalyst {
+		position: static;
+		transform: translateX(0%);
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 60px;
+	}
+	.services-item__text {
+		display: none;
+	}
+	.services-item__img {
+		width: 80px;
+	}
+	.services-item__title {
+		font-weight: bold;
+		font-size: 18px;
+	}
+	.services-item__btn {
+		color: #ffffff;
+		background-color: #191919;
+		border-radius: 6px;
+		font-size: 18px;
+		box-shadow: 0px 0px 10px 2px #000000;
+	}
+	.advantage {
+		height: auto;
+	}
+	.advantage-title {
+		font-size: 24px;
+	}
+	.advantage-text {
+		font-size: 12px;
+	}
+	.advantage-list {
+		flex-direction: column;
+		align-items: center;
+	}
+	.advantage-list__item {
+		margin-bottom: 40px;
+	}
+	.left,
+	.right {
+		top: 60%;
+		width: 18px;
+		height: 24px;
+	}
+	.left {
+		left: -8px;
+	}
+	.right {
+		right: -8px;
+	}
+	.slider-container {
+		width: 280px;
+	}
+	.slider-block {
+		position: relative;
+	}
+	.slider-title {
+		font-size: 24px;
+	}
+	.slider-item {
+		width: 280px;
+	}
+	.slider-img {
+		width: 280px;
+		height: 180px;
+	}
+	.slider-img-fon {
+		min-width: 280px;
+		min-height: 120px;
+	}
+	.about-us {
+		height: 600px;
+	}
+	.about-us-title {
+		padding: 20px 40px;
+		font-size: 24px;
+	}
+	.about-us-title__item {
+		font-size: 18px;
+	}
+	.about-us-text {
+		width: 300px;
+		height: auto;
+		text-align: center;
+	}
+	.contact-block {
+		flex-direction: column-reverse;
+		align-items: center;
+	}
+	.contact-block__discription {
+		width: 300px;
+	}
+	.contact-icon {
+		align-items: center;
+	}
+	.mobile {
+		display: none;
+	}
+	.contact-icon__items {
+		margin-bottom: 40px;
+	}
+	.footer-text {
+		font-size: 14px;
+		margin-right: 8px;
+	}
+	.overlay {
+		position: fixed;
+		overflow: scroll;
+	}
+	.popup {
+		top: 10%;
+		transform: translate(-50%, 0%);
+		width: 300px;
+		height: auto;
+		box-shadow: 0px 1px 20px -4px #000000;
+	}
+	.call {
+		display: block;
+		position: fixed;
+		bottom: 20px;
+		right: 20px;
+		width: 70px;
+		height: 70px;
+		background-color: #ff1313;
+		border-radius: 50%;
+		box-shadow: 0px 2px 8px 1px #000000;
+	}
+	.call-btn {
+		display: block;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		width: 30px;
+		height: 30px;
+		background-image: url(../img/phone.png);
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+}

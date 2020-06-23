@@ -1,0 +1,15 @@
+.point {
+	position: absolute;
+	top: 50%;
+	right: -20px;
+	transform: translateY(-50%);
+	width: 6px;
+	height: 6px;
+	background-color: #ff1313;
+	border-radius: 50%;
+}
+@media (max-width: 967px) { 
+	.point {
+		display: none;
+	}
+}
